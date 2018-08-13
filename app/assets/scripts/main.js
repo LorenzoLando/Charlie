@@ -1,9 +1,10 @@
-var text = document.getElementsByClassName('text');
-var structure = document.getElementsByClassName('structure');
+//\nimazione per eleiminare la cover
+//quando clikko sul testo
+$('.text').on('click', function() {
+    //la sezione structure va in dissolvenza
+      $('.structure').fadeOut("slow", function(){
+          $('.structure').remove();
 
-text.addEventListener('click', function(){
-
-  alert('bella li funziona');
-
+      });
 
 });

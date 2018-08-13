@@ -422,10 +422,12 @@ textarea {
 }
 
 .structure {
+
   background: #333;
   height: 100vh;
   overflow: hidden;
   text-align: center;
+
 }
 
 .svg-wrapper {
@@ -453,10 +455,6 @@ textarea {
   line-height: 32px;
   position: relative;
   top: -48px;
-}
-
-.text:hover {
-  font-size: 25px;
 }
 
 @keyframes draw {
