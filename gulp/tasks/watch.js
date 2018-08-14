@@ -10,7 +10,7 @@ gulp.task('html', function() {
 
 
 
-//we create a task named watch 
+//we create a task named watch
 
 gulp.task('watch', function() {
 
@@ -29,7 +29,7 @@ gulp.task('watch', function() {
   });
 
   //it uses the gulp plug-in watch the first argument is the file to watch the second the action in this case is start the
-  //task named 
+  //task named
 
 
   watch('./app/index.html', function() {
@@ -41,7 +41,7 @@ gulp.task('watch', function() {
   });
 // guardo tutti i file .js contenuti nella cartella scripts
   watch('./app/assets/scripts/**/*.js', function() {
- // se vengono modificati e salvati parte la task scriptsRefresh definita in questo file 
+ // se vengono modificati e salvati parte la task scriptsRefresh definita in questo file
     gulp.start('scriptsRefresh');
   })
 
