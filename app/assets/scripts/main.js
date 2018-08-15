@@ -5,7 +5,10 @@ $('.text').on('click', function() {
     //la sezione structure va in dissolvenza
       $('.structure').fadeOut("slow", function(){
           $('.structure').remove();
+          $('#charlie').removeClass("hide");
 
       });
+
+
 
 });
