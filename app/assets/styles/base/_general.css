@@ -5,6 +5,8 @@
 	
 }
 
-.jumbotron {
-	background-color: red;
+img {
+	width: 100vh !important;
+	height: 100vh !important;
 }
+
