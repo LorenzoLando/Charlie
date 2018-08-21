@@ -1,5 +1,6 @@
-//animazione per eleiminare la cover
-//quando clikko sul testo
+////////////////////////////////////////
+//ANIMAZIONE PER LA COVER IN DISSOLVENZA
+////////////////////////////////////////
 
 // $('.text').on('click', function() {
 //     //la sezione structure va in dissolvenza
@@ -13,27 +14,16 @@
 
 // });
 
-////////////////////////////////////////
-//ANIMAZIONE HEADER CARUSEL
-////////////////////////////////////////
+/////////////////////////////////////////////
+//FINE ANIMAZIONE PER LA COVER IN DISSOLVENZA
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+//DISSOLVENZA TITOLO ON SCROLL
+/////////////////////////////////////////////
+$(window).scroll(function(){
+    $(".main-title").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
+/////////////////////////////////////////////
+//FINE DISSOLVENZA TITOLO ON SCROLL
+/////////////////////////////////////////////
 
-$(function() {
-	$('#carousel').carouFredSel({
-		responsive: true,
-		items: {
-			visible: 1,
-			width: 900,
-			height: 500
-		},
-		scroll: {
-			duration: 250,
-			timeoutDuration: 2500,
-			fx: 'uncover-fade'
-		},
-		pagination: '#pager'
-	});
-});
-
-////////////////////////////////////////
-//FINE ANIMAZIONE HEADER CARUSEL
-////////////////////////////////////////
