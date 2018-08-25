@@ -1,7 +1,9 @@
 @import "normalize.css";
 @import "base/_general";
+@import "base/_mixins";
 @import "modules/_cover";
-@import "modules/_main-title";
+@import "modules/_menu";
+@import "modules/_header";
 
 
 

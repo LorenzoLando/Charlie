@@ -1,0 +1,17 @@
+.header {
+
+	&_img {
+	height: 100vh;
+	width: 100vw;
+	}
+
+	&_text {
+		position: fixed;
+		top: 15px;
+		left: auto;
+		right: auto;
+	}
+
+}
+
+
