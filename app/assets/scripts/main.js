@@ -64,9 +64,9 @@ $(document).ready(function() {
 //CAROSELLO HEADER
 /////////////////////////////////////////////
 
-  var i = 0; // Start point
-  var images = [];
-  var time = 3000;
+  let i = 0; // Start point
+  let images = [];
+  let time = 3000;
 
   // Image List
   images[0] = 'assets/images/annie.jpg';
