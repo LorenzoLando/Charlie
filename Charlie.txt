@@ -1,0 +1,124 @@
+<!--=====================================
+        codice cover
+      =====================================-->
+      <div class="structure">
+        <div class="svg-wrapper">
+          <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="320" />
+          </svg>
+           <div class="text">CHARLIE</div>
+        </div>
+      </div>
+    <!--=====================================
+       fine codice cover
+      =====================================-->
+
+  <!--=====================================
+       css cover
+      =====================================-->
+
+
+.structure {
+  background: #333;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.svg-wrapper {
+  height: 60px;
+	margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  stroke: #19f6e8;
+}
+
+.text {
+  color: #fff;
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  letter-spacing: 8px;
+  line-height: 32px;
+  position: relative;
+  top: -48px;
+}
+
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}
+
+.hide{
+  display: none;
+}
+
+
+
+////////////////////////////////////////
+//ANIMAZIONE PER LA COVER IN DISSOLVENZA
+////////////////////////////////////////
+
+$('.text').on('click', function() {
+    //la sezione structure va in dissolvenza
+      $('.structure').fadeOut("slow", function(){
+          $('.structure').remove();
+          $('#charlie').removeClass("hide");
+
+      });
+
+
+
+});
+
+/////////////////////////////////////////////
+//FINE ANIMAZIONE PER LA COVER IN DISSOLVENZA
+/////////////////////////////////////////////
+
+
+
+
+A PIECE ABOUT MYSELF.
+
+ 
+
+Born in Aberdeen when attending school took a great interest in art.
+
+Became a self- taught artist once I moved to Dundee, there I carried
+
+out various commissions including portraiture, street scenes and
+
+murals. It was around 1990 that I decided to form my stained glass
+
+company Gothic Glass, and for the next 10 years carried out work
+
+including designing building and installing stained glass windows and panels for clients . I also carried out restoration work for churches, castles, public buildings and private houses.
+
+I then decided to start stained glass classes, which proved to be very successful. I moved to Glasgow for a year to a large stained glass studio, where I worked alongside other artists, learning all forms of glass work.  My intention now that I have returned to Aberdeen is to start offering the stained glass classes, and carry out consultation work once again.
+
+I also will return to offering to carry out commissions in all aspects of art.
+
+Charlie Wood.
