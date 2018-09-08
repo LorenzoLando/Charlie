@@ -1,45 +1,37 @@
 {
-  "name": "fotografa",
+  "name": "travel-site",
   "version": "1.0.0",
   "dependencies": {
     "jquery": "^2.2.4",
-    "node": "^10.4.1",
-    "normalize.css": "^4.1.1"
+    "jquery-smooth-scroll": "^2.2.0",
+    "normalize.css": "^4.1.1",
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
+    "autoprefixer": "^6.7.7",
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
-    "boostrap": "^2.0.0",
-    "bootstrap": "^4.1.3",
     "browser-sync": "^2.12.8",
     "del": "^2.2.1",
     "gulp": "^3.9.1",
-    "gulp-postcss": "^6.1.1",
+    "gulp-postcss": "^6.4.0",
     "gulp-rename": "^1.2.2",
     "gulp-svg-sprite": "^1.3.1",
     "gulp-watch": "^4.3.5",
     "postcss-hexrgba": "^0.2.0",
-    "postcss-import": "^8.1.2",
+    "postcss-import": "^8.2.0",
     "postcss-mixins": "^4.0.2",
-    "postcss-nested": "^1.0.0",
+    "postcss-nested": "^1.0.1",
     "postcss-simple-vars": "^1.2.0",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-cli": "^3.1.0"
   },
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LorenzoLando/Fotografa.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LorenzoLando/Fotografa/issues"
-  },
-  "homepage": "https://github.com/LorenzoLando/Fotografa#readme",
   "description": ""
 }
